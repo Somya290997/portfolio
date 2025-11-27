@@ -58,6 +58,7 @@
         <ul>
           <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
           <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#skills"><i class="bx bx-chip"></i> <span>Skills</span></a></li>
           <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
           <li><a href="#honors" class="nav-link scrollto"><i class="bx bx-award"></i> <span>Honors & Achievements</span></a>
           </li>
@@ -157,7 +158,7 @@
 <!--            <p><strong>Data Engineering: </strong>Apache Spark, Kafka, NiFi, Hive, Snowflake, Postgres, Hadoop, Oracle</p>-->
 
 <!--            <p><strong>Tools & DevOps: </strong>Git, GitHub, Jenkins, AWS (S3, EC2), Kubernetes, Matplotlib, Seaborn, Splunk</p>-->
-            <p><strong>Programming & Data: </strong>Python, SQL, Scala, Java, C, C++, Apache Spark, Kafka, NiFi, Hive, Hadoop, Snowflake, Postgres, Oracle, React, HTML, CSS</p>
+            <p><strong>Programming & Data: </strong>Python, SQL, Scala, Java, Go, C++, Apache Spark, Kafka, NiFi, Hive, Hadoop, Snowflake, Postgres, Oracle, React, HTML, CSS</p>
             <p><strong>ML & AI: </strong>Transformers, PyTorch, TensorFlow, NLP, MLflow, Kubeflow, Pandas, NumPy, Jupyter</p>
             <p><strong>Cloud & DevOps: </strong>AWS (S3, EC2), Kubernetes, Jenkins, Git/GitHub, Splunk, YAML</p>
             <p><strong>Visualization: </strong>Matplotlib, Seaborn, Graffana</p>
@@ -320,6 +321,7 @@
           <li data-filter="*" class="filter-active">All</li>
           <li data-filter=".filter-mle">Machine Learning </li>
           <li data-filter=".filter-dl">Deep Learning</li>
+          <li data-filter=".filter-networking">Computer Networks</li>
           <li data-filter=".filter-app">Web Development</li>
         </ul>
       </div>
@@ -346,6 +348,18 @@
         </div>
       </div>
 
+      <!-- LLM Inference-->
+      <div class="col-lg-4 col-md-6 portfolio-item filter-dl">
+        <div class="portfolio-wrap">
+          <div class="project-text">
+            <p>
+              Built an optimized LLM inference pipeline focusing on splitting prefill and decode stages across servers using Triton/vLLM to improve throughput, latency, and GPU utilization. 
+            </p>
+          </div>
+        </div>
+      </div>
+      
+
 
       <!-- Snowflake -->
       <div class="col-lg-4 col-md-6 portfolio-item filter-mle">
@@ -357,13 +371,22 @@
         </div>
       </div>
 
+
+      <!-- BioCollate P2P Protocol (Ongoing) -->
+      <div class="col-lg-4 col-md-6 portfolio-item filter-networking">
+        <div class="portfolio-wrap">
+          <div class="project-text">
+            <p>
+              Ongoing project building a decentralized P2P protocol for secure, structured data exchange with custom routing and identity verification.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
       <!-- ML Project-->
       <div class="col-lg-4 col-md-6 portfolio-item filter-mle">
         <div class="portfolio-wrap">
-          <!-- <img src="assets/img/portfolio/gpt2.png" class="img-fluid" alt="GPT-2 XL Project" style="height:300px; width:400px"> -->
-          <!-- <div class="portfolio-links">
-            <a href="https://github.com/YOUR-REPO" title="Project Repo"><i class="bx bx-link"></i></a>
-          </div> -->
           <div class="project-text">
             <p>Developed a privacy-aware interview evaluation system using GPT-2 XL and BERT, classifying responses by explanation quality while reducing speaker identity bias to improve fairness and interpretability.</p>
           </div>
@@ -373,10 +396,6 @@
       <!-- IBM Helpdesk Project -->
       <div class="col-lg-4 col-md-6 portfolio-item filter-app">
         <div class="portfolio-wrap">
-          <!-- <img src="assets/img/portfolio/ibm-helpdesk.png" class="img-fluid" alt="IBM Helpdesk Project" style="height:300px; width:400px"> -->
-          <!-- <div class="portfolio-links">
-            <a href="https://github.com/YOUR-REPO" title="Project Repo"><i class="bx bx-link"></i></a>
-          </div> -->
           <div class="project-text">
             <p>Developed a scalable helpdesk platform app for IBM Security Verify using ISV APIs and React, integrating secure role-based access controls, external service notifications, and real-time dashboards for ticket tracking and SLA monitoring.</p>
           </div>
